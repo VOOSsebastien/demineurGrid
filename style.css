@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    border: 15px ridge rgb(87, 86, 86);
+    width:818px;
+    height: 818px;
+    margin:auto;
+    margin-top:75px;
+}
+
+.numero1{
+    width: 99px;
+    height: 99px;
+}
+.numero2{
+    width: 99px;
+    height: 99px;
+}
+.bomb{
+    width: 99px;
+    height: 99px;
+}
+.numero3{
+     width: 99px;
+    height: 99px;
+}
+.tile{
+    width: 99px;
+    height: 99px;
+}
+section{
+    align-content:center ;
+
+    width:300px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(8,8fr);
+
+}
+
+div{
+    background-color: rgb(192, 190, 190);
+
+    margin:auto;
+    border:1px dashed black;
+    flex-wrap:wrap;
+    /*
+    margin:3px 3px 3px 3px;
+    */
+    width:100px;
+    height: 100px;
+    grid-template-columns:repeat(8,8fr);
+}
